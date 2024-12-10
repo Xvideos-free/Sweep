@@ -28,7 +28,6 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
             text-align: center;
             margin: 20px 0;
-            overflow: hidden;
         }
 
         .heading {
@@ -43,15 +42,6 @@
             width: 100%;
             border-radius: 8px;
             margin-bottom: 20px;
-        }
-
-        .image-container img {
-            border: 3px solid #ff4500;
-        }
-
-        .image-container.small img {
-            width: 50%; /* Размер в два раза меньше */
-            margin: 0 auto;
         }
 
         .image-heading {
@@ -133,21 +123,24 @@
         </div>
 
         <div class="image-heading" data-translate="image-heading">EXCLUSIVE 18+ ENTERTAINMENT PORTAL</div>
-        <div class="sub-heading" data-translate="sub-heading">With a section of real private XVideos</div>
 
-        <!-- Изображения -->
-        <div class="image-container small">
-            <img src="ai_botfull.png" alt="Full AI Bot Image" data-translate="full-ai-bot-alt">
-        </div>
+        <!-- Изображение ai_bot.png -->
         <div class="image-container">
-            <img src="ai_bot.png" alt="Exclusive Preview" data-translate="exclusive-preview-alt">
+            <img src="ai_bot.png" alt="AI Bot Preview" data-translate="ai-bot-alt">
+        </div>
+
+        <div class="sub-heading" data-translate="sub-heading">With private section XVideos 380000+ HD Video</div>
+
+        <!-- Изображение ai_botfull.png -->
+        <div class="image-container">
+            <img src="ai_botfull.png" alt="Full AI Bot Image" data-translate="ai-botfull-alt">
         </div>
 
         <div class="info-text" data-translate="info-text">Unlock the XVideos section in 3 easy steps:</div>
         <div class="steps">
-            <p><span class="number">1.</span> <span data-translate="step-1">Click Create My Account.</span></p>
-            <p><span class="number">2.</span> <span data-translate="step-2">Simple registration without email confirmation.</span></p>
-            <p><span class="number">3.</span> <span data-translate="step-3">Unlimited access to exclusive adult content in the private section of XVideos is open!</span></p>
+            <p><span class="number" data-translate="step1-number">1.</span> <span data-translate="step1">Click 'Create Account'.</span></p>
+            <p><span class="number" data-translate="step2-number">2.</span> <span data-translate="step2">Simple registration with no email confirmation required.</span></p>
+            <p><span class="number" data-translate="step3-number">3.</span> <span data-translate="step3">Unlimited access to exclusive adult content in the private XVideos section is open!</span></p>
         </div>
 
         <!-- Кнопка -->
@@ -155,93 +148,89 @@
            target="_blank" rel="noopener noreferrer" data-translate="cta-button">Unlock XVideos Content Now for Free</a>
     </div>
 
+<script>
+    const translations = {
+        "en": {
+            "heading": "Get Instant Access to XVideos Content!",
+            "video-alt": "Your browser does not support the video tag.",
+            "image-heading": "EXCLUSIVE 18+ ENTERTAINMENT PORTAL",
+            "ai-bot-alt": "AI Bot Preview",
+            "ai-botfull-alt": "Full AI Bot Image",
+            "sub-heading": "With private section XVideos 380000+ HD Video",
+            "info-text": "Unlock the XVideos section in 3 easy steps:",
+            "step1": "Click 'Create Account'.",
+            "step2": "Simple registration with no email confirmation required.",
+            "step3": "Unlimited access to exclusive adult content in the private XVideos section is open!",
+            "cta-button": "Unlock XVideos Content Now for Free"
+        },
+        "ru": {
+            "heading": "Получите мгновенный доступ к контенту XVideos!",
+            "video-alt": "Ваш браузер не поддерживает видеотег.",
+            "image-heading": "ЭКСКЛЮЗИВНЫЙ ПОРТАЛ ДЛЯ ВЗРОСЛЫХ 18+",
+            "ai-bot-alt": "Предпросмотр AI-бота",
+            "ai-botfull-alt": "Полное изображение AI-бота",
+            "sub-heading": "Секретный раздел XVideos: более 380000 HD видео",
+            "info-text": "Разблокируйте раздел XVideos в 3 простых шага:",
+            "step1": "Нажмите 'Создать аккаунт'.",
+            "step2": "Простая регистрация без подтверждения электронной почты.",
+            "step3": "Неограниченный доступ к эксклюзивному контенту для взрослых открыт!",
+            "cta-button": "Разблокировать контент XVideos бесплатно"
+        },
+        // Добавьте другие переводы
+    };
 
-    <script>
-        const translations = {
-            "en": {
-                "heading": "Get Instant Access to XVideos Content!",
-                "full-ai-bot-alt": "Full AI Bot Image",
-                "exclusive-preview-alt": "Exclusive Preview",
-                "video-alt": "Your browser does not support the video tag.",
-                "image-heading": "EXCLUSIVE 18+ ENTERTAINMENT PORTAL",
-                "sub-heading": "With a section of real private XVideos",
-                "info-text": "Unlock the XVideos section in 3 easy steps:",
-                "step-1": "Click Create My Account.",
-                "step-2": "Simple registration without email confirmation.",
-                "step-3": "Unlimited access to exclusive adult content in the private section of XVideos is open!",
-                "cta-button": "Unlock XVideos Content Now for Free"
-            },
-            "es": {
-                "heading": "¡Obtén acceso instantáneo al contenido de XVideos!",
-                "full-ai-bot-alt": "Imagen completa del bot AI",
-                "exclusive-preview-alt": "Vista previa exclusiva",
-                "video-alt": "Tu navegador no soporta la etiqueta de video.",
-                "image-heading": "PORTAL DE ENTRETENIMIENTO EXCLUSIVO 18+",
-                "sub-heading": "Con una sección privada real de XVideos",
-                "info-text": "Desbloquea la sección de XVideos en 3 sencillos pasos:",
-                "step-1": "Haz clic en Crear mi cuenta.",
-                "step-2": "Registro simple sin confirmación por correo electrónico.",
-                "step-3": "¡Acceso ilimitado a contenido exclusivo para adultos en la sección privada de XVideos!",
-                "cta-button": "Desbloquear contenido de XVideos ahora gratis"
-            },
-            "ru": {
-                "heading": "Получите мгновенный доступ к контенту XVideos!",
-                "full-ai-bot-alt": "Изображение полного AI-бота",
-                "exclusive-preview-alt": "Эксклюзивный предварительный просмотр",
-                "video-alt": "Ваш браузер не поддерживает тег видео.",
-                "image-heading": "ЭКСКЛЮЗИВНЫЙ ПОРТАЛ РАЗВЛЕЧЕНИЙ 18+",
-                "sub-heading": "С реальным приватным разделом XVideos",
-                "info-text": "Откройте раздел XVideos за 3 простых шага:",
-                "step-1": "Нажмите \"Создать аккаунт\".",
-                "step-2": "Простая регистрация без подтверждения электронной почты.",
-                "step-3": "Неограниченный доступ к эксклюзивному контенту для взрослых в приватной секции XVideos открыт!",
-                "cta-button": "Откройте контент XVideos бесплатно прямо сейчас"
-            },
-            "fr": {
-                "heading": "Accédez instantanément au contenu de XVideos !",
-                "full-ai-bot-alt": "Image complète du bot AI",
-                "exclusive-preview-alt": "Aperçu exclusif",
-                "video-alt": "Votre navigateur ne prend pas en charge la balise vidéo.",
-                "image-heading": "PORTAIL DE DIVERTISSEMENT EXCLUSIF 18+",
-                "sub-heading": "Avec une section privée réelle de XVideos",
-                "info-text": "Déverrouillez la section XVideos en 3 étapes simples :",
-                "step-1": "Cliquez sur Créer mon compte.",
-                "step-2": "Inscription simple sans confirmation par email.",
-                "step-3": "Accès illimité au contenu adulte exclusif dans la section privée de XVideos est ouvert !",
-                "cta-button": "Déverrouiller le contenu de XVideos maintenant gratuitement"
-            },
-            "de": {
-                "heading": "Erhalten Sie sofortigen Zugriff auf XVideos-Inhalte!",
-                "full-ai-bot-alt": "Vollständiges Bild des AI-Bots",
-                "exclusive-preview-alt": "Exklusive Vorschau",
-                "video-alt": "Ihr Browser unterstützt das Video-Tag nicht.",
-                "image-heading": "EXKLUSIVES 18+ UNTERHALTUNGSPORTAL",
-                "sub-heading": "Mit einem echten privaten Abschnitt von XVideos",
-                "info-text": "Entsperren Sie die XVideos-Sektion in 3 einfachen Schritten:",
-                "step-1": "Klicken Sie auf \"Mein Konto erstellen\".",
-                "step-2": "Einfache Registrierung ohne E-Mail-Bestätigung.",
-                "step-3": "Unbegrenzter Zugriff auf exklusive Inhalte für Erwachsene im privaten Bereich von XVideos ist offen!",
-                "cta-button": "XVideos-Inhalte jetzt kostenlos freischalten"
+    const supportedCountries = {
+        "en": [
+            "Australia", "United States", "United Kingdom", "Canada", "New Zealand", "Ireland", 
+            "Falkland Islands", "Singapore", "Gibraltar"
+        ],
+        "ru": ["Russia", "Ukraine", "Belarus", "Kazakhstan", "Kyrgyzstan"],
+        // Добавьте страны для других языков
+    };
+
+    async function getCountry() {
+        try {
+            const response = await fetch('https://ipapi.co/json/');
+            const data = await response.json();
+            return data.country_name || null;
+        } catch (error) {
+            console.error("Error fetching country:", error);
+            return null;
+        }
+    }
+
+    function translatePage(language) {
+        const elements = document.querySelectorAll("[data-translate]");
+        elements.forEach((element) => {
+            const key = element.getAttribute("data-translate");
+            if (translations[language] && translations[language][key]) {
+                element.innerText = translations[language][key];
             }
-        };
+        });
+    }
 
-        function detectLanguage() {
-            const userLang = navigator.language || navigator.userLanguage;
-            return userLang.split('-')[0];
+    async function detectLanguageByCountry() {
+        const country = await getCountry();
+        if (!country) {
+            console.warn("Country not detected, defaulting to English.");
+            translatePage("en");
+            return;
         }
 
-        function translatePage(language) {
-            const elements = document.querySelectorAll("[data-translate]");
-            elements.forEach((element) => {
-                const key = element.getAttribute("data-translate");
-                if (translations[language] && translations[language][key]) {
-                    element.innerText = translations[language][key];
-                }
-            });
+        let selectedLanguage = "en"; // Fallback language
+        for (let lang in supportedCountries) {
+            if (supportedCountries[lang].includes(country)) {
+                selectedLanguage = lang;
+                break;
+            }
         }
 
-        const language = detectLanguage();
-        translatePage(language in translations ? language : "en");
-    </script>
+        console.log(`Detected country: ${country}, selected language: ${selectedLanguage}`);
+        translatePage(selectedLanguage);
+    }
+
+    detectLanguageByCountry();
+</script>
+
 </body>
 </html>
